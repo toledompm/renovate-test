@@ -9,5 +9,9 @@
       "matchPackageNames": ["app"],
       "registryUrls": ["https://toledompm.github.io/homelab-charts"]
     }
-  ]
+  ],
+  "flux": {
+    "fileMatch": ["^.+\\.yaml$"],
+  },
+  "enabledManagers": ["flux"]
 }
